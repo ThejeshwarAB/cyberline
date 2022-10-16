@@ -1,0 +1,75 @@
+$primary_color: green;
+$secondary_color: lightgreen;
+
+.col{
+    background-color: $secondary_color;
+    height: 42vh;
+    margin: 10px;
+    border: 0.5px solid black;
+    text-align: center;
+
+    h1{
+        font-weight: bold;
+        display: inline-block;
+        background-color: gray;
+        color: white;
+        padding: 10px 30px;
+        margin: 25px;
+        text-align: center;
+        border: 0.5px solid black;
+    }
+
+    i{
+        font-size:2.5em;
+    }
+
+    p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .temperature{
+        background-color: yellow;
+        color: red;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 0.5px solid black;
+    }
+
+    .head{
+        display: inline-block;
+    }
+
+    // span.circle{
+    //     // display: inline;
+    //     // z-index: 600;
+    //     font-size: 100px;
+    //     height: 40px;
+    //     width: 40px;
+    //     color: red;
+    //     background: red;
+    //     border-width: 1px solid black;
+    //     border-radius: 50%;
+    // }
+    
+    .round{
+        color: green;
+    }
+
+    .round.inactive{
+        color: red;
+    }
+
+    .active{
+        background-color: green;
+    }
+
+    .inputs input{
+        // padding: 10px;
+        width: 75%;
+        font-size: 1.5em;
+        color: darkslategrey;
+        font-weight: bold;
+    }
+}

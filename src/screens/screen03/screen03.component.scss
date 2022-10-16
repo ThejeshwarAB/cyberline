@@ -1,0 +1,25 @@
+table{
+    margin: 75px auto;
+    // margin: 20px;
+    // height: 100vh
+    max-width: 100vw;
+
+    td{
+        padding: 5px 10px;
+        width: 15vw;
+    }
+
+    thead{
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    tbody{
+        background-color: white;
+        tr:hover{
+        background: lighten($color: cyan, $amount: 10%);
+        }
+    }
+}

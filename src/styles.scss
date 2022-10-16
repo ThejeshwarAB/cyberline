@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary_font: 'Inter', sans-serif;
+
+*{
+    font-family: $primary_font;
+}
+
+body{
+    background-color: lightgreen;
+}
